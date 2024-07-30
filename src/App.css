@@ -1,0 +1,341 @@
+* {
+  margin: 0%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+/* Navbar Css */
+.navbar {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px 5px;
+  background-color: #ffffff;
+
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar__list li {
+  margin: 0 15px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.navbar__list--lawyerca {
+  border: 1px solid #1B72B1;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.navbar__loginSignup {
+  display: flex;
+  align-items: center;
+
+}
+
+.navbar__loginSignup li {
+  margin-right: 15px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.navbar__loginSignup-Lawyer-CA {
+  color: white;
+  background-color: #1B72B1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Midsection Css */
+
+.midSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#F3F8FC 100%,#FFFFFF 0%);
+  
+  height: auto;
+}
+
+.midSection_advertiseBanner {
+  height: auto;
+  width: 950px;
+  position: relative;
+  text-wrap: wrap;
+  margin-top: 90px;
+  justify-content: center;
+  text-align-last: center;
+
+}
+
+.midSection_heading {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.midSection_heading-special {
+  color: #F89A36;
+}
+
+.midSection_content {
+  justify-content: center;
+  width: 796px;
+  left: 60.5px;
+  text-indent: 42px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 2%;
+  text-align: center;
+  position: relative;
+  top: 92px;
+}
+
+.midSection_book_button {
+  width: 146px;
+  height: 42px;
+  letter-spacing: 2%;
+  line-height: 30px;
+  top: 130px;
+  position: relative;
+  background-color: #1B72B1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
+
+.midSection_brands {
+  margin-top: 200px;
+  position: relative;
+}
+
+.midSection_brands-special {
+  letter-spacing: 8%;
+  color: #F89A36;
+  margin-left: 1%;
+}
+
+.midSection_brands-heading {
+  letter-spacing: 8%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  margin: 0px 5px 0px 5px;
+}
+
+.midSection_brands-heading::after {
+  content: '';
+  flex: 0.2;
+  height: 1px;
+  background-color: #000;
+}
+
+.midSection_brands-heading::before {
+
+  content: '';
+  flex: 0.2;
+  height: 1px;
+  background-color: #000;
+}
+
+.midSection_brands_images {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.midSection_brands_images img {
+  width: 75px;
+  margin: 30px;
+  height: 75px;
+}
+
+/* Slider Css */
+.cardSlider {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding-bottom: 20px;
+}
+
+.cardSlide_heading {
+  margin-bottom: 20px;
+  letter-spacing: 2%;
+ 
+  
+}
+
+
+/* Specification SLider  */
+.headDivSpecification{
+  display: flex;
+  background: linear-gradient(#F3F8FC 100%,#FFFFFF 0%);
+}
+.headDivSpecification_specificationSlider {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.headDivSpecification_specificationSlider-typo{
+  display: flex;
+}
+.headDivSpecification_specificationSlider-icon{
+  text-align: right;
+  margin-bottom: 10px;
+  margin-left: auto;
+ 
+}
+
+.specificationSlider .MuiCard-root {
+  margin: 10px;
+}
+
+/* Expert Consultation Section */
+.expertConsultation{
+  display: flex;
+  justify-content: center;
+}
+.expertConsultation_image{
+  position: relative;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  left: 100px;
+  top: 80px;
+  border-radius: 10px;
+  background-color: #EEEEEE ;
+}
+
+.expertConsultation_description{
+
+  margin-left: auto;
+  text-wrap: wrap;
+  float: right;
+  width: 50%;
+  position: relative;
+  top: 80px;
+  
+}
+.expertConsultation_description li{
+  list-style: none;
+  position: relative;
+  top: 53px;
+  margin: 15px 0 15px 0;
+}
+
+.expertConsultation_description p{
+  position: relative;
+  top: 40px;
+}
+
+.expertConsultation_Button{
+  position: relative;
+  top: 60px;
+}
+
+.iocn{
+  position:relative;
+  justify-content: center;
+  text-align: center;
+  top: 98px;
+  margin-bottom: 50px;
+}
+
+/* Ovverview Section */
+.overView{
+  background: linear-gradient(#F3F8FC 100%,#FFFFFF 0%);
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  top: 98px;
+  position: relative;
+}
+.overView_button{
+
+position: relative;
+top: 38px;
+
+}
+.overView_heading{
+  text-align: center;
+  top: 180px;
+  position: absolute;
+  font-size: 22px;
+}
+.overView_heading-span{
+  color: #F89A36;
+}
+
+/* Complience Progress */
+.complienceProgressStart{
+  top: 98px;
+  position: relative;
+  background: linear-gradient(#F3F8FC 100%,#FFFFFF 0%);
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 10%;
+
+ 
+}
+.complienceProgress{
+  justify-content: center;
+  display: flex;
+}
+.complienceProgress img{
+  width: 375px;
+  height: 267.57px;
+  right: 30px;
+}
+.complienceProgress_Description{
+  padding: 10px;
+}
+.complienceProgress_Description-heading{
+  margin-bottom: 4%;
+}
+.judicComparison{
+  background: linear-gradient(#F3F8FC 100%,#FFFFFF 0%);
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+.judixClients{
+  background: linear-gradient(#F3F8FC 100%,#FFFFFF 0%);
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+.judixClients_heading{
+  margin-top: 5%;
+}
+.judixClients-span{
+  color: #F89A36;
+  margin: 0 15px 0 15px;
+}
+.judixClients-slider{
+  width: 100%;
+  margin-bottom: 0px;
+  background: linear-gradient(#F3F8FC 100%,#FFFFFF 0%);
+
+}
+.displayCard{
+  width: 100%;
+  background: linear-gradient(#F3F8FC 100%,#FFFFFF 0%);
+  padding-top: 10px;
+}
